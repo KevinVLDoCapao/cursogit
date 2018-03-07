@@ -1,0 +1,37 @@
+Comandos do Git 
+----------------
+
+1 - git clone 'URL' - "Pega um projeto de um repositorio remoto especificado pela URL";
+
+2 - git status - "Mostra o estado de todos os arquivos no diretorio que o git toma conta, sendo assim ele exibe todos os arquivos que ele está monitorando ou deixando de monitorar"
+
+3 - git init - "Faz com que o git tome conta do diretório atual (Onde foi dig. o comando)";
+
+4 - git add 'arquivo' - "Faz com que o git leia as alterações feitas no arquivo e tenha noção do que ele deve alterar quando o mesmo for salvo efetimente"
+
+5 - git commit -m 'Mensagem semantica' - "Faz com que o git salve efetivamente as alterações que foram adicionadas pelo 'Git ADD'. "
+
+6 - git config --global user.name 'NOME USUARIO' - "Registra o nome do usuario que da os comandos nas pastas do git. OBS: Omitindo o '--global' ele registra o nome do usuario somente na pasta em que o comando foi dado";
+
+7 - git config --global user.email 'EMAIL USUARIO' - "Registra o email do usuario que da os comando nas pastas do git. OBS: Omitindo o '--global' ele registra o email do usuario somente na paste em que o comando foi dado";
+
+
+8 - git ls-files - "Mostra todos os arquivos em que o git está monitorando as mudanças que estão sendo feitas";
+
+9 - git log - Exibe o historico de cada commit realizado com seu respectivo usuário;
+
+10 - git whatchanged - "Exibe o mesmo que o log, porem com informações mais detalhada";
+
+11 - git whatchanged - p - "Exibe o mesmo que o whatchanged, porem com informações mais detalhadas ainda !!! ";
+
+12 - git remote add 'nome para servidor' 'URL servidor' - "Adiciona o repositorio em que a branch pegara o código";
+
+13 - git remote - "Exibe o nome de todos os repositorios registrados";
+
+14 - git push 'nome repositorio' 'nome branch' - "Envia as alterações feitas para o repositorio. A branch serve para especificar uma tarefa que pode ter sido passado por uma empresa por exemplo";
+
+15 - 
+
+
+
+/// PAREI NA AULA 4
